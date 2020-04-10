@@ -96,7 +96,7 @@ int main() {
 		mov eax, tomb[edi];
 		add osszeg, eax;
 		add edi, 4;
-		loop ciklus_ossszeg;
+		loop ciklus_osszeg;
 	}
 	//átlag kiszámítása
 	_asm {
@@ -116,7 +116,7 @@ int main() {
 	//minimumkeresés
 	_asm {
 		mov edx, 99999; //min kereséshez
-		mov exc, 100; //ciklusváltozó
+		mov ecx, 100; //ciklusváltozó
 		mov esi, 0;
 	ciklus_minimum:
 		mov eax, tomb[esi];
