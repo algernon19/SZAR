@@ -18,5 +18,8 @@
     <ClCompile Include="masik.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="mindegy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
