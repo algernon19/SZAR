@@ -150,6 +150,18 @@ int main() {
 		call dword ptr printf;
 	}
 
+	//ellenõrzés c++-ban
+	osszeg = 0; minimum = 999999;
+	for (size_t i = 0; i < 100; i++)
+	{
+		osszeg += tomb[i];
+		if (tomb[i] < minimum) minimum = tomb[i];
+	}
+	int_atlag = (float)(osszeg / 100.0);
+	cout << osszeg << endl;
+	cout << int_atlag << endl;
+	cout << minimum << endl;
+
 	//system("pause") meghívása
 	__asm {
 		push _pause;
