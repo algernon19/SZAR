@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\mindegy.cpp">
+    <ClCompile Include="masik.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
