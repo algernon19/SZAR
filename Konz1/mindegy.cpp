@@ -95,6 +95,7 @@ int main() {
 	ciklus_osszeg:
 		mov eax, tomb[edi];
 		add osszeg, eax;
+		add edi, 4;
 		loop ciklus_ossszeg;
 	}
 	//átlag kiszámítása
